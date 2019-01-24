@@ -1,0 +1,20 @@
+<style lang="less">
+</style>
+<template>
+  <view class="container">
+    分类
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Index extends wepy.page {
+    config = {
+      navigationBarTitleText: '分类'
+    }
+    onLoad() {
+      console.log('onLoad')
+    }
+  }
+</script>
